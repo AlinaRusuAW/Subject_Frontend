@@ -1,6 +1,9 @@
 body{
-    background-image: url("/img/cerul.jpg");
+    background-image: url("/img/cerul.jpg");    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+    background-position: 50% 50%;
 
 }
 h1{
@@ -56,8 +59,3 @@ ul {
   li a:hover {
     background-color: #111;
   }
-
- 
- 
- 
- 
