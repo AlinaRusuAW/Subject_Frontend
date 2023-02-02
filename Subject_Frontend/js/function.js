@@ -1,31 +1,34 @@
-function determineDayOfTheWeek(dayNumber){
-let i = document.getElementById('week');
-i = parseInt(i);
-switch (i) {
+let clickButton = document.getElementById("button");
+clickButton.addEventListener("click", 
+
+function determineDayOfTheWeek(dayNumber) {
+
+  let day = Number(document.getElementById("numberDay").value);
+
+  switch (day) {
     case 1:
-      console.log("Monday");
+      alert("Luni!");
       break;
     case 2:
-      console.log("Tuesday");
+      alert("Marti!");
       break;
     case 3:
-      console.log("Wednesday");
+      alert("Miercuri!");
       break;
     case 4:
-      console.log("Thursday");
+      alert("Joi!");
       break;
     case 5:
-      console.log("Friday");
+      alert("Vineri!");
       break;
     case 6:
-      console.log("Saturday");
+      alert("Simbata!");
       break;
     case 7:
-      console.log("Sunday");
+      alert("Duminica!");
       break;
     default:
       alert("Numarul introdus de dvs este un numar inafara intervalului propus.");
       break;
   }
-  return false;
-}
+})
